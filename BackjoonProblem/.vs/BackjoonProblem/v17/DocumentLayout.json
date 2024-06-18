@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|c:\\users\\admin\\desktop\\backjoonproblem\\backjoonproblem\\backjoonproblem\\comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Comparison.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\Comparison.cs",
+              "RelativeDocumentMoniker": "BackjoonProblem\\Comparison.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\Comparison.cs",
+              "RelativeToolTip": "BackjoonProblem\\Comparison.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:21:38.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

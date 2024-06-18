@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BackjoonProblem\bin\Debug\BackjoonProblem.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BackjoonProblem\bin\Debug\BackjoonProblem.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BackjoonProblem\bin\Debug\BackjoonProblem.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BackjoonProblem\obj\Debug\BackjoonProblem.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BackjoonProblem\obj\Debug\BackjoonProblem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BackjoonProblem\obj\Debug\BackjoonProblem.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BackjoonProblem\obj\Debug\BackjoonProblem.pdb

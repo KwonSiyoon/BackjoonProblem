@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackjoonProblem", "BackjoonProblem\BackjoonProblem.csproj", "{A2983800-258E-4930-BD92-4245AA08C7E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{056B03C9-111A-403B-A9BA-B5F02E898962}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2983800-258E-4930-BD92-4245AA08C7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2983800-258E-4930-BD92-4245AA08C7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2983800-258E-4930-BD92-4245AA08C7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2983800-258E-4930-BD92-4245AA08C7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A4FB777-E3BC-4F90-8920-D3E577C8E85C}
+	EndGlobalSection
+EndGlobal
