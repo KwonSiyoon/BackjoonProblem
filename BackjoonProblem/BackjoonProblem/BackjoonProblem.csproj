@@ -56,6 +56,7 @@
     <Compile Include="multiplication.cs" />
     <Compile Include="Multiplication2.cs" />
     <Compile Include="MultiplicationTable.cs" />
+    <Compile Include="OneDimensionalArray.cs" />
     <Compile Include="OvenClock.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

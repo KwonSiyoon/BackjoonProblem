@@ -9,35 +9,44 @@ namespace BackjoonProblem
 {
     internal class For
     {
+        /*
         static void Main(string[] args)
         {
 
 
-
-
-
-
-
-
-
-/*
-            PlusAB4();
-            void PlusAB4() // 10951
+*//*
+            // 틱 하나는 100나노초 또는 1/1000만 초를 나타낸다.
+            // 밀리초 안에 10000개의 틱과 초당 1000만개의 틱이 있다.
+            // 시간을 이용한 반복문(while) 탈출 예시
+            long start = DateTime.Now.Ticks;
+            long count = 0;
+            while(start + 10000000 > DateTime.Now.Ticks)
             {
-                while (true)
-                {
-                    string input = Console.ReadLine();
-                    if (input == null)
-                    {
-                        break;
-                    }
-                    string[] temp = input.Split();
-                    int a = int.Parse(temp[0]);
-                    int b = int.Parse(temp[1]);
-                    Console.WriteLine(a + b);
-                }
+                count++;
             }
+            Console.WriteLine(count + "만큼 반복했습니다.");
 */
+
+
+
+            /*
+                        PlusAB4();
+                        void PlusAB4() // 10951
+                        {
+                            while (true)
+                            {
+                                string input = Console.ReadLine();
+                                if (input == null)
+                                {
+                                    break;
+                                }
+                                string[] temp = input.Split();
+                                int a = int.Parse(temp[0]);
+                                int b = int.Parse(temp[1]);
+                                Console.WriteLine(a + b);
+                            }
+                        }
+            */
 
 
             /*
@@ -239,7 +248,8 @@ namespace BackjoonProblem
                                 Console.WriteLine(ans[i]);
                             }
                         }
-            */
+            *//*
         }
+*/
     }
 }
