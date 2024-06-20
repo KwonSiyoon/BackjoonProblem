@@ -43,17 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlarmClock.cs" />
     <Compile Include="Cat.cs" />
     <Compile Include="Comparison.cs" />
+    <Compile Include="Coordinate.cs" />
+    <Compile Include="DiceWorld.cs" />
     <Compile Include="Dog.cs" />
+    <Compile Include="For.cs" />
     <Compile Include="FourBasicOperations.cs" />
     <Compile Include="KidJungMin.cs" />
+    <Compile Include="LeapYear.cs" />
     <Compile Include="multiplication.cs" />
     <Compile Include="Multiplication2.cs" />
+    <Compile Include="MultiplicationTable.cs" />
+    <Compile Include="OvenClock.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Remain.cs" />
     <Compile Include="Surprised.cs" />
+    <Compile Include="TestScore.cs" />
     <Compile Include="Year.cs" />
   </ItemGroup>
   <ItemGroup>

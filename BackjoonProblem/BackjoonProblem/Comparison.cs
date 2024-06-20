@@ -8,7 +8,7 @@ namespace BackjoonProblem
 {
     internal class Comparison
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             string[] read = Console.ReadLine().Split(' ');
             int A = int.Parse(read[0]);
@@ -25,6 +25,6 @@ namespace BackjoonProblem
             {
                 Console.WriteLine("==");
             }
-        }
+        }*/
     }
 }
