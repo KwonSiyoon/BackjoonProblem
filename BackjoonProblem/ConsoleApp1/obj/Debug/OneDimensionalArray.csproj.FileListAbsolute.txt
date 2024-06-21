@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ConsoleApp1\obj\Debug\OneDimensionalArray.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ConsoleApp1\obj\Debug\OneDimensionalArray.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
