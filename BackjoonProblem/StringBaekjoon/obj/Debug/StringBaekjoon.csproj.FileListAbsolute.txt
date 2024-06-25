@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\StringBaekjoon\bin\Debug\StringBaekjoon.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\StringBaekjoon\bin\Debug\StringBaekjoon.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\StringBaekjoon\bin\Debug\StringBaekjoon.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\StringBaekjoon\obj\Debug\StringBaekjoon.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\StringBaekjoon\obj\Debug\StringBaekjoon.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\StringBaekjoon\obj\Debug\StringBaekjoon.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\StringBaekjoon\obj\Debug\StringBaekjoon.pdb
