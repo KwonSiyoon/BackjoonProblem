@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\JustTest\bin\Debug\JustTest.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\JustTest\bin\Debug\JustTest.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\JustTest\bin\Debug\JustTest.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\JustTest\obj\Debug\JustTest.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\JustTest\obj\Debug\JustTest.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\JustTest\obj\Debug\JustTest.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\JustTest\obj\Debug\JustTest.pdb

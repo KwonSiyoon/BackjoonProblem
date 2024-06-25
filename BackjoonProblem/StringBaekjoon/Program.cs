@@ -12,7 +12,76 @@ namespace StringBaekjoon
         {
 
 
+            CountWord();
+            void CountWord() // 1152
+            {
+                string read = Console.ReadLine().Trim();
+                string[] input = read.Split(); // 공백이 여러개 이어지면 공백을 저장함. 주의.
+                int ans = input.Length;
+                foreach(var c in input)
+                {
+                    if(c == "")
+                    {
+                        ans--;
+                    }
+                }
+                Console.WriteLine(ans); 
+            }
 
+
+/*
+            Iterate();
+            void Iterate() // 2675
+            {
+                int n = int.Parse(Console.ReadLine());
+                for(int i = 0; i < n; i++)
+                {
+                    string[] input = Console.ReadLine().Split(); // 숫자 + 공백 + 문자열 을 받음
+                    int m = int.Parse(input[0]); // 숫자를 m에 저장
+                    string temp = input[1]; // 문자열을 temp에 저장
+                    for(int j = 0; j < temp.Length; j++) // 첫번째 문자부터
+                    {
+                        for(int k = 0; k < m; k++) // m번 반복
+                        {
+                            Console.Write(temp[j]); // 문자 출력
+                        }
+                    }
+                    Console.WriteLine(); // 다음줄로
+                }
+            }
+*/
+
+/*
+            FindAlphabet();
+            void FindAlphabet() // 10809
+            {
+                string input = Console.ReadLine();
+                for (int j = 0; j < 26; j++)
+                {
+                    bool contain = true; // 포함되어있나 확인. 포함이면 true
+                    char c = (char)(97 + j); // a 부터 순서대로
+                    for (int i = 0; i < input.Length; i++) // 첫 문자부터 검사
+                    {
+                        if(c == input[i]) // 문자가 같다면
+                        {
+                            // 몇번째에 있는지 출력. 처음은 0번째
+                            Console.Write(i + " ");
+                            contain = true;
+                            break; // 바로 나가기
+                        }
+                        else
+                        {
+                            contain = false;
+                        }
+                    }
+                    // 어떤 알파벳이 포함되어 있지 않다면
+                    if (!contain)
+                    {
+                        Console.Write(-1 + " ");
+                    }
+                }
+            }
+*/
 /*
             SumOfNumbers();
             void SumOfNumbers() // 11720

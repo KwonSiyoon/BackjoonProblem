@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDimensionalArray", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBaekjoon", "StringBaekjoon\StringBaekjoon.csproj", "{9CF82F24-692D-4385-883A-7304D9C144CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustTest", "JustTest\JustTest.csproj", "{B9994EED-579E-4B98-9697-AFAA0C2A46BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{9CF82F24-692D-4385-883A-7304D9C144CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF82F24-692D-4385-883A-7304D9C144CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF82F24-692D-4385-883A-7304D9C144CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9994EED-579E-4B98-9697-AFAA0C2A46BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9994EED-579E-4B98-9697-AFAA0C2A46BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9994EED-579E-4B98-9697-AFAA0C2A46BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9994EED-579E-4B98-9697-AFAA0C2A46BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
