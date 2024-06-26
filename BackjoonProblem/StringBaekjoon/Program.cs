@@ -10,9 +10,38 @@ namespace StringBaekjoon
     {
         static void Main(string[] args)
         {
+            
+
+            Sangsu();
+            void Sangsu() // 2908
+            {
+                string[] input = Console.ReadLine().Split();
+                string num1 = input[0];
+                string num2 = input[1];
+
+                StringBuilder sb1 = new StringBuilder();
+                StringBuilder sb2 = new StringBuilder();
+                for(int i = 0; i<3; i++)
+                {
+                    sb1.Append(num1[2 - i]);
+                    sb2.Append(num2[2 - i]);
+                }
+                int reNum1 = int.Parse(sb1.ToString());
+                int reNum2 = int.Parse(sb2.ToString());
+                if(reNum1 > reNum2)
+                {
+                    Console.WriteLine(reNum1);
+                }
+                else
+                {
+                    Console.WriteLine(reNum2);
+                }
+
+            }
 
 
-            CountWord();
+
+            /*CountWord();
             void CountWord() // 1152
             {
                 string read = Console.ReadLine().Trim();
@@ -27,7 +56,7 @@ namespace StringBaekjoon
                 }
                 Console.WriteLine(ans); 
             }
-
+*/
 
 /*
             Iterate();

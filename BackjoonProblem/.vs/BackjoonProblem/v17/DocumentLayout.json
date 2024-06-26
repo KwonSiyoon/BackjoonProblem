@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CF82F24-692D-4385-883A-7304D9C144CC}|StringBaekjoon\\StringBaekjoon.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\stringbaekjoon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CF82F24-692D-4385-883A-7304D9C144CC}|StringBaekjoon\\StringBaekjoon.csproj|c:\\users\\admin\\desktop\\backjoonproblem\\backjoonproblem\\stringbaekjoon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CF82F24-692D-4385-883A-7304D9C144CC}|StringBaekjoon\\StringBaekjoon.csproj|solutionrelative:stringbaekjoon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9994EED-579E-4B98-9697-AFAA0C2A46BE}|JustTest\\JustTest.csproj|c:\\users\\admin\\desktop\\backjoonproblem\\backjoonproblem\\justtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9994EED-579E-4B98-9697-AFAA0C2A46BE}|JustTest\\JustTest.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\justtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9994EED-579E-4B98-9697-AFAA0C2A46BE}|JustTest\\JustTest.csproj|solutionrelative:justtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,8 +74,7 @@
               "RelativeToolTip": "JustTest\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:58:23.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T05:58:23.715Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "StringBaekjoon\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\StringBaekjoon\\Program.cs",
               "RelativeToolTip": "StringBaekjoon\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T07:46:42.304Z",
               "EditorCaption": ""
@@ -136,8 +135,7 @@
               "RelativeToolTip": "BackjoonProblem\\MultiplicationTable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T05:03:00.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T05:03:00.213Z"
             },
             {
               "$type": "Document",
