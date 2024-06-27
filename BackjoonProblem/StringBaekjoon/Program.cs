@@ -10,8 +10,56 @@ namespace StringBaekjoon
     {
         static void Main(string[] args)
         {
-            
 
+
+
+
+            Dial();
+            void Dial()
+            {
+                int ans = 0;
+                //대문자 아스키코드 65~90
+                foreach(char c in Console.ReadLine())
+                {
+                    if (c < 68) //ABC
+                    {
+                        ans += 2;
+                    }
+                    else if (c < 71) //DEF
+                    {
+                        ans += 3;
+                    }
+                    else if (c < 74) //GHI
+                    {
+                        ans += 4;
+                    }
+                    else if (c < 77) //JKL
+                    {
+                        ans += 5;
+                    }
+                    else if (c < 80) //MNO
+                    {
+                        ans += 6;
+                    }
+                    else if (c < 84) //PQRS
+                    {
+                        ans += 7;
+                    }
+                    else if (c < 87) //TUV
+                    {
+                        ans += 8;
+                    }
+                    else //WXYZ
+                    {
+                        ans += 9;
+                    }
+                    ans += 1;
+                }
+                Console.WriteLine(ans);
+            }
+
+
+           /*
             Sangsu();
             void Sangsu() // 2908
             {
@@ -38,7 +86,7 @@ namespace StringBaekjoon
                 }
 
             }
-
+*/
 
 
             /*CountWord();
