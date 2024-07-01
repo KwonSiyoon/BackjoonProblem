@@ -14,6 +14,27 @@ namespace StringBaekjoon
 
 
 
+            AsIsPrint();
+            void AsIsPrint() // 11718
+            {
+                while (true)
+                {
+                    string input = Console.ReadLine();
+                    Console.WriteLine(input);
+                    if(String.IsNullOrEmpty(input))
+                    //if(input == null)
+                    {
+                        break;
+                    }
+                }
+                
+            }
+
+
+
+
+
+/*
             Dial();
             void Dial()
             {
@@ -57,7 +78,7 @@ namespace StringBaekjoon
                 }
                 Console.WriteLine(ans);
             }
-
+*/
 
            /*
             Sangsu();

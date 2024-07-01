@@ -7,52 +7,48 @@
       "RelativeMoniker": "D:0:0:{9CF82F24-692D-4385-883A-7304D9C144CC}|StringBaekjoon\\StringBaekjoon.csproj|solutionrelative:stringbaekjoon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9994EED-579E-4B98-9697-AFAA0C2A46BE}|JustTest\\JustTest.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\justtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9994EED-579E-4B98-9697-AFAA0C2A46BE}|JustTest\\JustTest.csproj|solutionrelative:justtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\multiplicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\multiplicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\for.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\for.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87B6B94A-31D4-4A5C-BB72-53D91EE472B8}|ConsoleApp1\\OneDimensionalArray.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B6B94A-31D4-4A5C-BB72-53D91EE472B8}|ConsoleApp1\\OneDimensionalArray.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\onedimensionalarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\onedimensionalarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\for.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\for.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\alarmclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\alarmclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\diceworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\diceworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\testscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\testscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\ovenclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\ovenclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\onedimensionalarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\onedimensionalarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\leapyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\leapyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\testscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\testscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\alarmclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\alarmclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\diceworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\diceworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\multiplicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\multiplicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\backjoonproblem\\leapyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2983800-258E-4930-BD92-4245AA08C7E7}|BackjoonProblem\\BackjoonProblem.csproj|solutionrelative:backjoonproblem\\leapyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\JustTest\\Program.cs",
-              "RelativeDocumentMoniker": "JustTest\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\JustTest\\Program.cs",
-              "RelativeToolTip": "JustTest\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T05:58:23.715Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -84,50 +68,53 @@
               "RelativeDocumentMoniker": "StringBaekjoon\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\StringBaekjoon\\Program.cs",
               "RelativeToolTip": "StringBaekjoon\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAMAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T07:46:42.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAlwD4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T01:51:08.365Z"
+              "WhenOpened": "2024-06-21T01:51:08.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OneDimensionalArray.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\OneDimensionalArray.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\OneDimensionalArray.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\OneDimensionalArray.cs",
               "RelativeToolTip": "BackjoonProblem\\OneDimensionalArray.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAlwB0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T03:19:14.101Z"
+              "WhenOpened": "2024-06-20T03:19:14.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "For.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\For.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\For.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\For.cs",
               "RelativeToolTip": "BackjoonProblem\\For.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAADwv/wAAAACAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T05:06:55.682Z"
+              "WhenOpened": "2024-06-19T05:06:55.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "MultiplicationTable.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\MultiplicationTable.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\MultiplicationTable.cs",
@@ -135,31 +122,34 @@
               "RelativeToolTip": "BackjoonProblem\\MultiplicationTable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T05:03:00.213Z"
+              "WhenOpened": "2024-06-19T05:03:00.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DiceWorld.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\DiceWorld.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\DiceWorld.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\DiceWorld.cs",
               "RelativeToolTip": "BackjoonProblem\\DiceWorld.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwBAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T03:55:37.628Z"
+              "WhenOpened": "2024-06-19T03:55:37.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "OvenClock.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\OvenClock.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\OvenClock.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\OvenClock.cs",
               "RelativeToolTip": "BackjoonProblem\\OvenClock.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwCEAAAALAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T03:41:39.868Z"
+              "WhenOpened": "2024-06-19T03:41:39.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -171,23 +161,25 @@
               "RelativeToolTip": "BackjoonProblem\\AlarmClock.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAwBcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:28:03.423Z"
+              "WhenOpened": "2024-06-19T01:28:03.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Coordinate.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\Coordinate.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\Coordinate.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\Coordinate.cs",
               "RelativeToolTip": "BackjoonProblem\\Coordinate.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCQAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:23:59.085Z"
+              "WhenOpened": "2024-06-19T01:23:59.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LeapYear.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\LeapYear.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\LeapYear.cs",
@@ -199,19 +191,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "TestScore.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\TestScore.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\TestScore.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\TestScore.cs",
               "RelativeToolTip": "BackjoonProblem\\TestScore.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCMAAAARAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:16:22.015Z"
+              "WhenOpened": "2024-06-19T00:16:22.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Comparison.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\Comparison.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\Comparison.cs",
@@ -219,7 +212,8 @@
               "RelativeToolTip": "BackjoonProblem\\Comparison.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T09:21:38.42Z"
+              "WhenOpened": "2024-06-18T09:21:38.42Z",
+              "EditorCaption": ""
             }
           ]
         }

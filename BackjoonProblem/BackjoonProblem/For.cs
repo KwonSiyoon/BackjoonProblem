@@ -38,7 +38,7 @@ namespace BackjoonProblem
                                 string input = Console.ReadLine();
                                 if (input == null)
                                 {
-                                    break;
+                                    break; // 입력이 없으면 빠져나가기.
                                 }
                                 string[] temp = input.Split();
                                 int a = int.Parse(temp[0]);
