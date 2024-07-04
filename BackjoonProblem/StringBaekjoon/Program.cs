@@ -12,6 +12,9 @@ namespace StringBaekjoon
         {
 
 
+
+
+/*
             CheckPalindrome();
             void CheckPalindrome() // 10988 // 더 축약한 것 // return은 함수 자체를 탈출.
             {
@@ -26,7 +29,7 @@ namespace StringBaekjoon
                 }
                 Console.WriteLine(1);
             }
-
+*/
             /*void CheckPalindrome() // 10988 // 내 답안 // break는 반복만 탈출.
             {
                 string input = Console.ReadLine();
