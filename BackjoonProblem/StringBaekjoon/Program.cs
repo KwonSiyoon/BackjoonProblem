@@ -11,7 +11,43 @@ namespace StringBaekjoon
         static void Main(string[] args)
         {
 
-
+            /*
+            StudyChar();
+            void StudyChar() // 1157
+            {
+                // 대문자는 ASCII코드 65~90 26문자.
+                // 각 -65하면 0~25;
+                int[] saveCnt = new int[26];
+                string input = Console.ReadLine().ToUpper();//모두 대문자로
+                // 문자마다 count를 증가해서 저장.
+                foreach (char c in input)
+                {
+                    saveCnt[c-65]++; // 0부터 저장하기 위해 -65
+                }
+                int max = saveCnt.Max(); // 문자들의 count를 비교해서 max값을 찾음.
+                int cnt = 0;
+                // max값과 비교해서 같은게 두 개 이상이면 ? 한개면 해당 문자 출력.
+                foreach (int c in saveCnt)
+                {
+                    if(max == c)
+                    {
+                        cnt++;
+                        if(cnt == 2)
+                        {
+                            Console.WriteLine("?");
+                            return;
+                        }
+                    }
+                }
+                for(int i = 0; i < saveCnt.Length; i++)
+                {
+                    if(max == saveCnt[i])
+                    {
+                        Console.WriteLine((char)(i+65));
+                    }
+                }
+            }
+*/
 
 
 /*
