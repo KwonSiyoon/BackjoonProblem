@@ -12,6 +12,8 @@ namespace StringBaekjoon
         {
 
 
+
+/*
             CroatiaAlphabet();
             void CroatiaAlphabet() // 2941 // Replace 함수를 알면 풀기 쉬움.
             {
@@ -28,7 +30,7 @@ namespace StringBaekjoon
                 }
                 Console.WriteLine(input.Length);
             }
-
+*/
 
             /*
             StudyChar();
