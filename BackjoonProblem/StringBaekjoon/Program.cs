@@ -11,6 +11,25 @@ namespace StringBaekjoon
         static void Main(string[] args)
         {
 
+
+            CroatiaAlphabet();
+            void CroatiaAlphabet() // 2941 // Replace 함수를 알면 풀기 쉬움.
+            {
+                string input = Console.ReadLine();
+                string[] croatia = new string[8]
+                {
+                    "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="
+                };
+                for(int i =0; i < croatia.Length; i++)
+                {
+                    // Replace는 현재의 인스턴스를 바꿔주는게 아니라 바꾼 string값을 반환해줌.
+                    // 따라서 받아줄 변수가 있어야함.
+                    input = input.Replace(croatia[i], "k"); 
+                }
+                Console.WriteLine(input.Length);
+            }
+
+
             /*
             StudyChar();
             void StudyChar() // 1157
