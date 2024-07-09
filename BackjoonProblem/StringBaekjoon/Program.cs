@@ -13,6 +13,64 @@ namespace StringBaekjoon
 
 
 
+            CheckGroupWord();
+            void CheckGroupWord()
+            {
+                int n = int.Parse(Console.ReadLine());
+                int cnt = 0;
+                char c;
+                string temp;
+                bool isGroup =false;
+                for(int i = 0; i < n; i++)
+                {
+                    string input = Console.ReadLine();
+                    c = input[0];
+                    for (int j = 0; j < input.Length; j++)
+                    {
+                        int k;
+                        if (input[j] == c) // 다를때까지
+                        {
+                            if(j == input.Length - 1)
+                            {
+                                isGroup = true;
+                                break;
+                            }
+                            continue;
+                        }
+                        else if (input[j] != c)
+                        {
+                            k = j;
+                            temp = input.Substring(k, input.Length-k);
+                            if (temp.Contains(c)) // 같은게 있으면.
+                            {
+                                isGroup = false;
+                                break; // 다음 문자열
+                            }
+                            else if(!temp.Contains(c))
+                            {
+                                c = input[k];
+                            }
+                        }
+                        isGroup = true;
+                    }
+                    if (isGroup)
+                    {
+                        cnt++;
+                        isGroup = false;
+                    }
+                }
+                Console.WriteLine(cnt);
+
+                // 문자열의 첫째 문자를 받아서
+                // 문자가 달라질때까지 삭제 후
+                // 같은게 문자열에 아직 포함되어 있는지 검사
+                // 있으면 break해서 다음 문자열 검사.
+                // 없으면 해당 문자열 다시 검사.
+                // 해당 문자열에 더이상 검사할게 없으면
+                // cnt 증가.
+            }
+
+
 /*
             CroatiaAlphabet();
             void CroatiaAlphabet() // 2941 // Replace 함수를 알면 풀기 쉬움.
