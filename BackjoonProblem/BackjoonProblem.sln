@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBaekjoon", "StringBae
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustTest", "JustTest\JustTest.csproj", "{B9994EED-579E-4B98-9697-AFAA0C2A46BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimensionalArray", "TwoDimensionalArray\TwoDimensionalArray.csproj", "{608117BD-526A-4A1C-A8A5-3718ACE15C65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{B9994EED-579E-4B98-9697-AFAA0C2A46BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9994EED-579E-4B98-9697-AFAA0C2A46BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9994EED-579E-4B98-9697-AFAA0C2A46BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608117BD-526A-4A1C-A8A5-3718ACE15C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608117BD-526A-4A1C-A8A5-3718ACE15C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608117BD-526A-4A1C-A8A5-3718ACE15C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608117BD-526A-4A1C-A8A5-3718ACE15C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
