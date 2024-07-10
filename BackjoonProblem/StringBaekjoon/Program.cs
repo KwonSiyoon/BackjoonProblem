@@ -13,6 +13,44 @@ namespace StringBaekjoon
 
 
 
+
+/*
+            YourScore();
+            void YourScore() // 25206
+            {
+                float sumP = 1;
+                float sum = 0;
+                float sumS = 0;
+                for(int i =0; i<20; i++)
+                {
+                    string[] input = Console.ReadLine().Split();
+                    string point = input[1];
+                    string score = input[2];
+                    if (score == "P") continue;
+                    if (point == "1.0")      { sumP *= 1;    sum += 1;                }
+                    else if (point == "2.0") { sumP *= 2;    sum += 2;                }
+                    else if (point == "3.0") { sumP *= 3;    sum += 3;                }
+                    else if (point == "4.0") { sumP *= 4;    sum += 4;                }
+                    if (score == "A+")      sumP *= 4.5f;
+                    else if (score == "A0") sumP *= 4.0f;
+                    else if (score == "B+") sumP *= 3.5f;
+                    else if (score == "B0") sumP *= 3.0f;
+                    else if (score == "C+") sumP *= 2.5f;
+                    else if (score == "C0") sumP *= 2.0f;
+                    else if (score == "D+") sumP *= 1.5f;
+                    else if (score == "D0") sumP *= 1.0f;
+                    else if (score == "F")  sumP *= 0;
+                    sumS += sumP;
+                    sumP = 1;
+                }
+                Console.WriteLine(sumS/sum);
+            }
+*/
+
+
+
+
+/*
             CheckGroupWord();
             void CheckGroupWord()
             {
@@ -69,7 +107,7 @@ namespace StringBaekjoon
                 // 해당 문자열에 더이상 검사할게 없으면
                 // cnt 증가.
             }
-
+*/
 
 /*
             CroatiaAlphabet();
