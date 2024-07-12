@@ -13,6 +13,49 @@ namespace TwoDimensionalArray
 
 
 
+            MaxValue();
+            void MaxValue()
+            {
+                int[,] nums = new int[9, 9];
+                string[] input = new string[9];
+                int max = 0;
+                for (int i = 0; i<9; i++)
+                {
+                    input = Console.ReadLine().Split();
+                    for (int j = 0; j<9; j++)
+                    {
+                        nums[i, j] = int.Parse(input[j]);
+                    }
+                }
+                foreach(var n in nums)
+                {
+                    if(n > max)
+                    {
+                        max = n;
+                    }
+                }
+                int row = 0;
+                int colum = 0;
+
+                for(int i =0; i < 9; i++)
+                {
+                    for(int j = 0; j < 9; j++)
+                    {
+                        if (nums[i,j] == max)
+                        {
+                            row = i;
+                            colum = j;
+                            break;
+                        }
+                    }
+                }
+                Console.WriteLine(max);
+                Console.WriteLine(row+1 + " " + colum+1);
+
+            }
+
+
+
 /*
             PlusMatrix();
             void PlusMatrix() // 2738

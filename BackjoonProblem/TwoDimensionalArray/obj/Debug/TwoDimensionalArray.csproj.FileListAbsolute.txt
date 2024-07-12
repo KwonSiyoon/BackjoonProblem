@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\TwoDimensionalArray\bin\Debug\TwoDimensionalArray.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\TwoDimensionalArray\bin\Debug\TwoDimensionalArray.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\TwoDimensionalArray\bin\Debug\TwoDimensionalArray.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\TwoDimensionalArray\obj\Debug\TwoDimensionalArray.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\TwoDimensionalArray\obj\Debug\TwoDimensionalArray.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\TwoDimensionalArray\obj\Debug\TwoDimensionalArray.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\TwoDimensionalArray\obj\Debug\TwoDimensionalArray.pdb
