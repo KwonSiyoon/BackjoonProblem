@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,98 @@ namespace TwoDimensionalArray
         {
 
 
+            ColorPaper();
+            void ColorPaper() // 2563 // 2차원 자체를 도화지로 생각.
+            {
+                int n = int.Parse(Console.ReadLine());
+                bool[,] temp = new bool[100, 100];
+                for(int i =0; i < n; i++)
+                {
+                    string[] read = Console.ReadLine().Split();
+                    int x = int.Parse(read[0]);
+                    int y = int.Parse(read[1]);
+                    for(int a = x; a < x+10; a++)
+                    {
+                        for(int b = y; b < y+10; b++)
+                        {
+                            temp[a, b] = true;
+                        }
+                    }
+                }
+                int sum = 0;
+                foreach(bool c in temp)
+                {
+                    if (c) sum++;
+                }
+                Console.WriteLine(sum);
+            }
 
+
+
+
+
+
+
+
+
+
+/*
+            void ReadVerticalLineRef() // 10798 Reference
+            {
+                List<char[]> list = new List<char[]>(); // 배열의 리스트를 만듬.
+                for (int i = 0; i < 5; i++)
+                {
+                    string input = Console.ReadLine();
+                    list.Add(input.ToCharArray()); // string을 char[]로 변환하여 list에 저장.
+                }
+
+                for (int i = 0; i < 15; i++) // 문자 순서대로 반복. 15대신 length의 max값을 넣어도 됨.
+                {
+                    for (int j = 0; j < 5; j++) // 줄 순서.
+                    {
+                        if (list[j].Length > i) // 글자 수가 넘는건 제외. 오류 방지
+                        {
+                            Console.Write(list[j][i]);
+                        }
+                    }
+                }
+            }
+
+
+            ReadVerticalLine();
+            void ReadVerticalLine() // 10798
+            {
+                string[] input = new string[5];
+                int[] length = new int[5];
+                
+                for(int i =0; i < 5; i++)
+                {
+                    input[i] = Console.ReadLine();
+                    length[i] = input[i].Length;
+                }
+
+                List<char> list = new List<char>();
+                for(int i = 0; i < length.Max(); i++) // 문자마다
+                {
+                    for(int j = 0; j < input.Length; j++) // 줄마다
+                    {
+                        if (i >= length[j] && j <= input.Length - 2)
+                        {
+                            continue;
+                        }
+                        else if (i >= length[j] && j == input.Length - 1) break;
+                        list.Add(input[j][i]);
+                    }
+                }
+                foreach(char c in list)
+                {
+                    Console.Write(c);
+                }
+
+            }
+*/ // 10798
+
+/*
             MaxValue();
             void MaxValue()
             {
@@ -51,9 +143,8 @@ namespace TwoDimensionalArray
                 }
                 Console.WriteLine(max);
                 Console.WriteLine(row+1 + " " + colum+1);
-
             }
-
+*/
 
 
 /*
@@ -92,7 +183,7 @@ namespace TwoDimensionalArray
                     Console.WriteLine();
                 }
             }
-*/
+*/ // 2738
         }
     }
 }
