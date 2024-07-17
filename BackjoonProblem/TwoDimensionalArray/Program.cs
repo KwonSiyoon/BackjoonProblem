@@ -13,6 +13,9 @@ namespace TwoDimensionalArray
         {
 
 
+
+
+/*
             ColorPaper();
             void ColorPaper() // 2563 // 2차원 자체를 도화지로 생각.
             {
@@ -39,7 +42,7 @@ namespace TwoDimensionalArray
                 Console.WriteLine(sum);
             }
 
-
+*/
 
 
 
