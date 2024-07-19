@@ -14,6 +14,33 @@ namespace GeneralMath_1
 
 
 
+
+
+
+            LaundryPresident();
+            void LaundryPresident()
+            {
+                int n = int.Parse(Console.ReadLine());
+                int quarterCnt = 0; // 쿼터 Quarter 25센트
+                int dimeCnt = 0; // 다임 Dime    10센트
+                int nickelCnt = 0; // 니켈 Nickel  5센트
+                int pennyCnt = 0; // 페니 Penny   1센트
+                for (int i = 0; i < n; i++)
+                {
+                    int change = int.Parse(Console.ReadLine());
+                    quarterCnt = change / 25;
+                    change %= 25;
+                    dimeCnt = change / 10;
+                    change %= 10;
+                    nickelCnt = change / 5;
+                    change %= 5;
+                    pennyCnt = change / 1;
+                    Console.WriteLine($"{quarterCnt} {dimeCnt} {nickelCnt} {pennyCnt}");
+                }
+            }
+
+
+/*
             BaseConversion_2();
             void BaseConversion_2() // 11005
             {
@@ -45,9 +72,7 @@ namespace GeneralMath_1
                     Console.Write(list[i]);
                 }
             }
-
-
-
+*/
 
 
 
