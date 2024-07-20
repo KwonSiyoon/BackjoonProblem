@@ -12,11 +12,18 @@ namespace GeneralMath_1
         {
 
 
+            MoveToCenterAlgorithm();
+            void MoveToCenterAlgorithm() // 2903
+            {
+                int n = int.Parse(Console.ReadLine());
+                int a = (int)Math.Pow(2, n) + 1;
+                Console.WriteLine(Math.Pow(a, 2));
+            }
 
 
 
 
-
+/*
             LaundryPresident();
             void LaundryPresident()
             {
@@ -38,7 +45,7 @@ namespace GeneralMath_1
                     Console.WriteLine($"{quarterCnt} {dimeCnt} {nickelCnt} {pennyCnt}");
                 }
             }
-
+*/
 
 /*
             BaseConversion_2();
