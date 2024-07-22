@@ -12,6 +12,25 @@ namespace GeneralMath_1
         {
 
 
+            beehive();
+            void beehive()
+            {
+                int n = int.Parse(Console.ReadLine());
+                int ans = 1;
+                n -= 1;
+                int i = 0;
+                while (n > 0)
+                {
+                    i++;
+                    ans++;
+                    n -= 6*i; 
+                }
+                Console.WriteLine(ans);
+            }
+
+
+
+/*
             MoveToCenterAlgorithm();
             void MoveToCenterAlgorithm() // 2903
             {
@@ -19,7 +38,7 @@ namespace GeneralMath_1
                 int a = (int)Math.Pow(2, n) + 1;
                 Console.WriteLine(Math.Pow(a, 2));
             }
-
+*/
 
 
 
