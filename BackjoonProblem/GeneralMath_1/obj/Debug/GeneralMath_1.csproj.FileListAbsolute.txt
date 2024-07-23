@@ -5,3 +5,10 @@ C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\G
 C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\GeneralMath_1.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\GeneralMath_1.exe
 C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\GeneralMath_1.pdb
+C:\Users\c\Desktop\Fork\BackjoonProblem\BackjoonProblem\GeneralMath_1\bin\Debug\GeneralMath_1.exe.config
+C:\Users\c\Desktop\Fork\BackjoonProblem\BackjoonProblem\GeneralMath_1\bin\Debug\GeneralMath_1.exe
+C:\Users\c\Desktop\Fork\BackjoonProblem\BackjoonProblem\GeneralMath_1\bin\Debug\GeneralMath_1.pdb
+C:\Users\c\Desktop\Fork\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\GeneralMath_1.csproj.AssemblyReference.cache
+C:\Users\c\Desktop\Fork\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\GeneralMath_1.csproj.CoreCompileInputs.cache
+C:\Users\c\Desktop\Fork\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\GeneralMath_1.exe
+C:\Users\c\Desktop\Fork\BackjoonProblem\BackjoonProblem\GeneralMath_1\obj\Debug\GeneralMath_1.pdb

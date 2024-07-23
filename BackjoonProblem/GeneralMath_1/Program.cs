@@ -12,6 +12,48 @@ namespace GeneralMath_1
         {
 
 
+
+            FindFraction();
+            void FindFraction()
+            {
+                int n = int.Parse(Console.ReadLine());
+                int m = 0;
+                while (n > 0)
+                {
+                    m++; // m 증가
+                    n -= m; // n에서 m을 뻄
+                }
+                // 탈출하면 해당 분수는 m번째 줄에 있음.
+                // n이 1일때 
+                // 탈출하면 n==0, m==1
+                // n이 2일때 탈출하면 n==-1, m==2
+                // n이 4일때 n==-2 m==3
+                // n이 5일때 n==-1 m==3
+                // n이 9면 n==-1 m==4
+                // n이 11이면 탈출 시 n == -4, m==5
+                // 1/1
+                // 1/2 2/1
+                // 3/1 2/2 1/3
+                // 1/4 2/3 3/2 4/1
+                // 5/1 4/2 3/3 2/4 1/5
+                if(m%2 == 0)
+                {
+                    Console.WriteLine($"{m+n}/{-n+1}");
+                }
+                else if(m%2 == 1)
+                {
+                    Console.WriteLine($"{-n+1}/{m+n}");
+                }
+            }
+
+
+
+
+
+
+
+
+/*
             beehive();
             void beehive()
             {
@@ -27,8 +69,7 @@ namespace GeneralMath_1
                 }
                 Console.WriteLine(ans);
             }
-
-
+*/
 
 /*
             MoveToCenterAlgorithm();
