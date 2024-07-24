@@ -12,9 +12,54 @@ namespace GeneralMath_1
         {
 
 
+            SnailWantToGoUpUseCeilingMethod();
+            void SnailWantToGoUpUseCeilingMethod() // 2869
+            {
+                string[] input = Console.ReadLine().Split();
+                int up = int.Parse(input[0]);
+                int down = int.Parse(input[1]);
+                int target = int.Parse(input[2]);
 
-            FindFraction();
-            void FindFraction()
+                // day를 x라 하면 up*x - down(x-1) >= target; 이므로 (up-down)*x >= target-down 이다.
+                int day = (int)Math.Ceiling((double)(target - down) / (up - down));
+                // Math.Ceiling -> double형을 쓰면 같거나 큰 정수값을 반환함.
+                // (이때 double형으로 반환하기 때문에 int로 형변환)
+
+
+                Console.WriteLine(day);
+            }
+
+
+
+            SnailWantToGoUp();
+            void SnailWantToGoUp() // 2869
+            {
+                string[] input = Console.ReadLine().Split();
+                int up = int.Parse(input[0]);
+                int down = int.Parse(input[1]);
+                int target = int.Parse(input[2]);
+                target -= up;
+                int day = target / (up - down);
+                // 첫날 올라가
+                // 다음날 내려왔다가 올라가
+                // 초과하면 그만임.
+                if (target > (up - down) * day) // 몫이 더 적었다. 하루 더 필요
+                {
+                    Console.WriteLine(day + 2);
+                }
+                else if(target <= (up - down) * day) // 몫이 더 클 수 없지. 같은경우임. 딱 맞는경우
+                {
+                    Console.WriteLine(day + 1);
+                }
+
+
+            }
+
+
+
+
+            /*FindFraction();
+            void FindFraction() // 1193
             {
                 int n = int.Parse(Console.ReadLine());
                 int m = 0;
@@ -44,13 +89,7 @@ namespace GeneralMath_1
                 {
                     Console.WriteLine($"{-n+1}/{m+n}");
                 }
-            }
-
-
-
-
-
-
+            }*/
 
 
 /*
