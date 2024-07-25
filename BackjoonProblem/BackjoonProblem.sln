@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoDimensionalArray", "TwoD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralMath_1", "GeneralMath_1\GeneralMath_1.csproj", "{99FC8E7B-9F2D-4442-913D-C19FED6E7A50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisorMultipleDecimal", "DivisorMultipleDecimal\DivisorMultipleDecimal.csproj", "{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{99FC8E7B-9F2D-4442-913D-C19FED6E7A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99FC8E7B-9F2D-4442-913D-C19FED6E7A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99FC8E7B-9F2D-4442-913D-C19FED6E7A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

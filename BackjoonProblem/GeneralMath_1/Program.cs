@@ -11,7 +11,7 @@ namespace GeneralMath_1
         static void Main(string[] args)
         {
 
-
+/*
             SnailWantToGoUpUseCeilingMethod();
             void SnailWantToGoUpUseCeilingMethod() // 2869
             {
@@ -54,7 +54,7 @@ namespace GeneralMath_1
 
 
             }
-
+*/
 
 
 
