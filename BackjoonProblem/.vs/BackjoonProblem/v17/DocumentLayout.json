@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}|DivisorMultipleDecimal\\DivisorMultipleDecimal.csproj|solutionrelative:divisormultipledecimal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99FC8E7B-9F2D-4442-913D-C19FED6E7A50}|GeneralMath_1\\GeneralMath_1.csproj|c:\\users\\admin\\desktop\\backjoonproblem\\backjoonproblem\\generalmath_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99FC8E7B-9F2D-4442-913D-C19FED6E7A50}|GeneralMath_1\\GeneralMath_1.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\generalmath_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99FC8E7B-9F2D-4442-913D-C19FED6E7A50}|GeneralMath_1\\GeneralMath_1.csproj|solutionrelative:generalmath_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "DivisorMultipleDecimal\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\DivisorMultipleDecimal\\Program.cs",
               "RelativeToolTip": "DivisorMultipleDecimal\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwDIAAAAPAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T03:41:41.502Z",
               "EditorCaption": ""
@@ -95,8 +95,7 @@
               "RelativeToolTip": "GeneralMath_1\\Program.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAYwAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T00:34:32.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T00:34:32.793Z"
             },
             {
               "$type": "Document",
