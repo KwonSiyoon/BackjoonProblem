@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\Geometry_RectangleAndTriangle\bin\Debug\Geometry_RectangleAndTriangle.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\Geometry_RectangleAndTriangle\bin\Debug\Geometry_RectangleAndTriangle.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\Geometry_RectangleAndTriangle\bin\Debug\Geometry_RectangleAndTriangle.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\Geometry_RectangleAndTriangle\obj\Debug\Geometry_RectangleAndTriangle.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\Geometry_RectangleAndTriangle\obj\Debug\Geometry_RectangleAndTriangle.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\Geometry_RectangleAndTriangle\obj\Debug\Geometry_RectangleAndTriangle.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\Geometry_RectangleAndTriangle\obj\Debug\Geometry_RectangleAndTriangle.pdb

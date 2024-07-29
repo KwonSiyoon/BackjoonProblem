@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralMath_1", "GeneralMat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisorMultipleDecimal", "DivisorMultipleDecimal\DivisorMultipleDecimal.csproj", "{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry_RectangleAndTriangle", "Geometry_RectangleAndTriangle\Geometry_RectangleAndTriangle.csproj", "{9B9CFBA2-32EC-4142-90C7-4106BB88E8E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9CFBA2-32EC-4142-90C7-4106BB88E8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9CFBA2-32EC-4142-90C7-4106BB88E8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9CFBA2-32EC-4142-90C7-4106BB88E8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9CFBA2-32EC-4142-90C7-4106BB88E8E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

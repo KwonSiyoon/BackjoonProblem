@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B9CFBA2-32EC-4142-90C7-4106BB88E8E8}|Geometry_RectangleAndTriangle\\Geometry_RectangleAndTriangle.csproj|c:\\users\\admin\\desktop\\backjoonproblem\\backjoonproblem\\geometry_rectangleandtriangle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B9CFBA2-32EC-4142-90C7-4106BB88E8E8}|Geometry_RectangleAndTriangle\\Geometry_RectangleAndTriangle.csproj|solutionrelative:geometry_rectangleandtriangle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}|DivisorMultipleDecimal\\DivisorMultipleDecimal.csproj|c:\\users\\admin\\desktop\\backjoonproblem\\backjoonproblem\\divisormultipledecimal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C4212F3-82C7-4CAD-AA3C-96892C244EB1}|DivisorMultipleDecimal\\DivisorMultipleDecimal.csproj|solutionrelative:divisormultipledecimal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -76,18 +80,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\Geometry_RectangleAndTriangle\\Program.cs",
+              "RelativeDocumentMoniker": "Geometry_RectangleAndTriangle\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\Geometry_RectangleAndTriangle\\Program.cs",
+              "RelativeToolTip": "Geometry_RectangleAndTriangle\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T03:43:15.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\DivisorMultipleDecimal\\Program.cs",
               "RelativeDocumentMoniker": "DivisorMultipleDecimal\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\DivisorMultipleDecimal\\Program.cs",
               "RelativeToolTip": "DivisorMultipleDecimal\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAPAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T03:41:41.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\GeneralMath_1\\Program.cs",
               "RelativeDocumentMoniker": "GeneralMath_1\\Program.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\TwoDimensionalArray\\Program.cs",
               "RelativeDocumentMoniker": "TwoDimensionalArray\\Program.cs",
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\StringBaekjoon\\Program.cs",
               "RelativeDocumentMoniker": "StringBaekjoon\\Program.cs",
@@ -119,11 +136,12 @@
               "RelativeToolTip": "StringBaekjoon\\Program.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAqwNsBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T07:46:42.304Z"
+              "WhenOpened": "2024-06-24T07:46:42.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
@@ -135,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OneDimensionalArray.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\OneDimensionalArray.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\OneDimensionalArray.cs",
@@ -147,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "For.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\For.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\For.cs",
@@ -159,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MultiplicationTable.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\MultiplicationTable.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\MultiplicationTable.cs",
@@ -171,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DiceWorld.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\DiceWorld.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\DiceWorld.cs",
@@ -183,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OvenClock.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\OvenClock.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\OvenClock.cs",
@@ -195,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AlarmClock.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\AlarmClock.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\AlarmClock.cs",
@@ -207,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Coordinate.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\Coordinate.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\Coordinate.cs",
@@ -219,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LeapYear.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\LeapYear.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\LeapYear.cs",
@@ -231,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TestScore.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\TestScore.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\TestScore.cs",
@@ -243,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Comparison.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BackjoonProblem\\Comparison.cs",
               "RelativeDocumentMoniker": "BackjoonProblem\\Comparison.cs",

@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\DivisorMultipleDecimal\bin\Debug\DivisorMultipleDecimal.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\DivisorMultipleDecimal\bin\Debug\DivisorMultipleDecimal.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\DivisorMultipleDecimal\bin\Debug\DivisorMultipleDecimal.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\DivisorMultipleDecimal\obj\Debug\DivisorMultipleDecimal.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\DivisorMultipleDecimal\obj\Debug\DivisorMultipleDecimal.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\DivisorMultipleDecimal\obj\Debug\DivisorMultipleDecimal.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\DivisorMultipleDecimal\obj\Debug\DivisorMultipleDecimal.pdb
