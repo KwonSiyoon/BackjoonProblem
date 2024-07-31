@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\AlgorithmLesson\bin\Debug\AlgorithmLesson.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\AlgorithmLesson\bin\Debug\AlgorithmLesson.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\AlgorithmLesson\bin\Debug\AlgorithmLesson.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\AlgorithmLesson\obj\Debug\AlgorithmLesson.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\AlgorithmLesson\obj\Debug\AlgorithmLesson.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\AlgorithmLesson\obj\Debug\AlgorithmLesson.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\AlgorithmLesson\obj\Debug\AlgorithmLesson.pdb
