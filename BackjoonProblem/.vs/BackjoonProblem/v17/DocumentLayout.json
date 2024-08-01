@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{BFA8A5BB-03AE-47AC-8463-6816B4753B2E}|BruteForce\\BruteForce.csproj|solutionrelative:bruteforce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F680248-BD2F-4D05-8B31-3990EA19085F}|AlgorithmLesson\\AlgorithmLesson.csproj|c:\\users\\admin\\desktop\\backjoonproblem\\backjoonproblem\\algorithmlesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F680248-BD2F-4D05-8B31-3990EA19085F}|AlgorithmLesson\\AlgorithmLesson.csproj|C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\algorithmlesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F680248-BD2F-4D05-8B31-3990EA19085F}|AlgorithmLesson\\AlgorithmLesson.csproj|solutionrelative:algorithmlesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "BruteForce\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\BackjoonProblem\\BackjoonProblem\\BruteForce\\Program.cs",
               "RelativeToolTip": "BruteForce\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAcwBwAAAA0AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T05:38:09.701Z",
               "EditorCaption": ""
@@ -107,8 +107,7 @@
               "RelativeToolTip": "AlgorithmLesson\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T23:47:43.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T23:47:43.091Z"
             },
             {
               "$type": "Document",
@@ -168,7 +167,8 @@
               "RelativeToolTip": "StringBaekjoon\\Program.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAqwNsBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T07:46:42.304Z"
+              "WhenOpened": "2024-06-24T07:46:42.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

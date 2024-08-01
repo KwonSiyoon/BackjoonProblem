@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BruteForce\bin\Debug\BruteForce.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BruteForce\bin\Debug\BruteForce.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BruteForce\bin\Debug\BruteForce.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BruteForce\obj\Debug\BruteForce.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BruteForce\obj\Debug\BruteForce.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BruteForce\obj\Debug\BruteForce.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\BruteForce\obj\Debug\BruteForce.pdb
