@@ -13,28 +13,33 @@ namespace BruteForce
             // BruteForce는 수학적 노가다를 뜻함
 
 
-            DecompositionSum();
-            void DecompositionSum() // 분해합 // 2231
-            {
-                int temp = int.Parse(Console.ReadLine());
-                string t = null;
+
+
+
+            MathIsNonFaceToFace();
+
+            //DecompositionSum();
+            //void DecompositionSum() // 분해합 // 2231
+            //{
+            //    int temp = int.Parse(Console.ReadLine());
+            //    string t = null;
                 
-                for(int i = 0; i<=temp; i++)
-                {
-                    int sum = i;
-                    t = i.ToString();
-                    foreach(var c in t)
-                    {
-                        sum += (int)c - 48;
-                    }
-                    if(sum == temp)
-                    {
-                        Console.WriteLine(i);
-                        return;
-                    }
-                }
-                Console.WriteLine(0);
-            }
+            //    for(int i = 0; i<=temp; i++)
+            //    {
+            //        int sum = i;
+            //        t = i.ToString();
+            //        foreach(var c in t)
+            //        {
+            //            sum += (int)c - 48;
+            //        }
+            //        if(sum == temp)
+            //        {
+            //            Console.WriteLine(i);
+            //            return;
+            //        }
+            //    }
+            //    Console.WriteLine(0);
+            //}
 
 
 
@@ -112,6 +117,28 @@ namespace BruteForce
 
             //    }
             //}
+        }
+
+        private static void MathIsNonFaceToFace() // 19532
+        {
+            string[] input = Console.ReadLine().Split();
+            int a = int.Parse(input[0]);
+            int b = int.Parse(input[1]);
+            int c = int.Parse(input[2]);
+            int d = int.Parse(input[3]);
+            int e = int.Parse(input[4]);
+            int f = int.Parse(input[5]);
+            for(int x = -999; x <= 999; x++)
+            {
+                for(int y = -999; y<=999; y++)
+                {
+                    if(a*x + b*y == c && d*x + e*y == f)
+                    {
+                        Console.WriteLine(x + " " + y);
+                        return;
+                    }
+                }
+            }
         }
     }
 }
