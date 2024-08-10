@@ -14,9 +14,10 @@ namespace BruteForce
 
 
 
+            RecolorTheChessBoard();
 
 
-            MathIsNonFaceToFace();
+            //MathIsNonFaceToFace();
 
             //DecompositionSum();
             //void DecompositionSum() // 분해합 // 2231
@@ -117,6 +118,41 @@ namespace BruteForce
 
             //    }
             //}
+        }
+
+        private static void RecolorTheChessBoard()
+        {
+            string[] input = Console.ReadLine().Split();
+            int n = int.Parse(input[0]);
+            int m = int.Parse(input[1]);
+            char[,] board = new char[n, m];
+            int totalCnt = n*m;
+            for(int i = 0; i < n; i++)
+            {
+                string temp = Console.ReadLine();
+                for(int j = 0; j < m; j++)
+                {
+                    board[i, j] = temp[j];
+                }
+            }
+            // 처음 W로 시작해버리기!
+            for(int i = 0; i<n-8; i++)
+            {
+                
+                for(int j = i; j < i+8; j++)
+                {
+                    for(int k = 0; k < 8; k++)
+                    {
+
+                    }
+                }
+            }
+            int a = 0;
+            int b = 0;
+            
+            // 처음 B로 시작해버리기!
+            // 하나씩 이동하면서 
+
         }
 
         private static void MathIsNonFaceToFace() // 19532
