@@ -14,7 +14,81 @@ namespace BruteForce
 
 
 
-            RecolorTheChessBoard();
+            RecolorTheChessBoard_2();
+            void RecolorTheChessBoard_2()
+            {
+                string[] input = Console.ReadLine().Split();
+                int n = int.Parse(input[0]);
+                int m = int.Parse(input[1]);
+                int totalCnt = n * m;
+                string[] temp = new string[n];
+                for(int i = 0; i<n; i++)
+                {
+                    temp[i] = Console.ReadLine();
+                }
+                
+                for(int a = 0; a<n-8; a++)
+                {
+                    for(int b = 0; b<m-8; b++)
+                    {
+
+                    }
+                }
+
+            }
+
+            void ColorBoardW(string[] temp, int a, int b, ref int total)
+            {
+                for(int i = a; i<8 + a; i++)
+                {
+                    for(int j = b; j<8 + b; j++)
+                    {
+                        if(i %2 == 0 && j%2 == 0)
+                        {
+                            ColorToBlack(temp[i][j], ref total);
+                        }
+                        if(i%2 == 1 && j%2 == 1)
+                        {
+                            ColorToWhite(temp[i][j], ref total);
+                        }
+                    }
+                }
+            }
+            void ColorBoardB(string[] temp, int a, int b, ref int total)
+            {
+                for (int i = a; i < 8 + a; i++)
+                {
+                    for (int j = b; j < 8 + b; j++)
+                    {
+                        if (i % 2 == 0 && j % 2 == 0)
+                        {
+                            ColorToWhite(temp[i][j], ref total);
+                        }
+                        if (i % 2 == 1 && j % 2 == 1)
+                        {
+                            ColorToBlack(temp[i][j], ref total);
+                        }
+                    }
+                }
+            }
+            void ColorToWhite(char c, ref int total)
+            {
+                if(c == 'B')
+                {
+                    c = 'W';
+                    total++;
+                }
+            }
+            void ColorToBlack(char c, ref int total)
+            {
+                if(c == 'W')
+                {
+                    c = 'B';
+                    total++;
+                }
+            }
+
+            //RecolorTheChessBoard();
 
 
             //MathIsNonFaceToFace();
@@ -138,12 +212,11 @@ namespace BruteForce
             // 처음 W로 시작해버리기!
             for(int i = 0; i<n-8; i++)
             {
-                
                 for(int j = i; j < i+8; j++)
                 {
                     for(int k = 0; k < 8; k++)
                     {
-
+                        
                     }
                 }
             }
