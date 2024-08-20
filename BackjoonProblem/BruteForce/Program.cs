@@ -14,6 +14,12 @@ namespace BruteForce
 
 
 
+
+
+
+
+
+            #region 체스판 채우기 백준 1018문제
             RecolorTheChessBoard_2();
             void RecolorTheChessBoard_2()
             {
@@ -27,49 +33,65 @@ namespace BruteForce
                     temp[i] = Console.ReadLine();
                 }
                 
-                for(int a = 0; a<n-8; a++)
+                for(int a = 0; a<n-7; a++)
                 {
-                    for(int b = 0; b<m-8; b++)
+                    for(int b = 0; b<m-7; b++)
                     {
-
+                        int k = ColorBoardB(temp, a, b);
+                        int l = ColorBoardW(temp, a, b);
+                        if (k < totalCnt) totalCnt = k;
+                        if (l < totalCnt) totalCnt = l;
                     }
                 }
+                Console.WriteLine(totalCnt);
 
             }
 
-            void ColorBoardW(string[] temp, int a, int b, ref int total)
+            int ColorBoardW(string[] temp, int a, int b)
             {
+                int total = 0;
                 for(int i = a; i<8 + a; i++)
                 {
                     for(int j = b; j<8 + b; j++)
                     {
                         if(i %2 == 0 && j%2 == 0)
                         {
-                            ColorToBlack(temp[i][j], ref total);
+                            ColorToWhite(temp[i][j], ref total);
                         }
-                        if(i%2 == 1 && j%2 == 1)
+                        else if(i%2 == 1 && j%2 == 1)
                         {
                             ColorToWhite(temp[i][j], ref total);
                         }
+                        else
+                        {
+                            ColorToBlack(temp[i][j], ref total);
+                        }
                     }
                 }
+                return total;
             }
-            void ColorBoardB(string[] temp, int a, int b, ref int total)
+            int ColorBoardB(string[] temp, int a, int b)
             {
+                int total = 0;
                 for (int i = a; i < 8 + a; i++)
                 {
                     for (int j = b; j < 8 + b; j++)
                     {
                         if (i % 2 == 0 && j % 2 == 0)
                         {
-                            ColorToWhite(temp[i][j], ref total);
+                            ColorToBlack(temp[i][j], ref total);
                         }
-                        if (i % 2 == 1 && j % 2 == 1)
+                        else if (i % 2 == 1 && j % 2 == 1)
                         {
                             ColorToBlack(temp[i][j], ref total);
                         }
+                        else
+                        {
+                            ColorToWhite(temp[i][j], ref total);
+                        }
                     }
                 }
+                return total;
             }
             void ColorToWhite(char c, ref int total)
             {
@@ -87,6 +109,8 @@ namespace BruteForce
                     total++;
                 }
             }
+            #endregion
+
 
             //RecolorTheChessBoard();
 
@@ -98,7 +122,7 @@ namespace BruteForce
             //{
             //    int temp = int.Parse(Console.ReadLine());
             //    string t = null;
-                
+
             //    for(int i = 0; i<=temp; i++)
             //    {
             //        int sum = i;
