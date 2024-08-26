@@ -1,117 +1,163 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
+// BruteForce는 수학적 노가다를 뜻함
 namespace BruteForce
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // BruteForce는 수학적 노가다를 뜻함
 
 
 
-
-
-
-
-
-            #region 체스판 채우기 백준 1018문제
-            RecolorTheChessBoard_2();
-            void RecolorTheChessBoard_2()
+            DeliverySugar();
+            void DeliverySugar()
             {
-                string[] input = Console.ReadLine().Split();
-                int n = int.Parse(input[0]);
-                int m = int.Parse(input[1]);
-                int totalCnt = n * m;
-                string[] temp = new string[n];
-                for(int i = 0; i<n; i++)
+                // 3킬로 봉지와 5킬로 봉지 있음
+                // 정확히 배달 못하면 -1
+                int n = int.Parse(Console.ReadLine());
+                // 5킬로 개수.
+                int a = n / 5;
+                int b = 0;
+                while (a >= 0)
                 {
-                    temp[i] = Console.ReadLine();
-                }
-                
-                for(int a = 0; a<n-7; a++)
-                {
-                    for(int b = 0; b<m-7; b++)
+                    if((n-5*a)%3 == 0)
                     {
-                        int k = ColorBoardB(temp, a, b);
-                        int l = ColorBoardW(temp, a, b);
-                        if (k < totalCnt) totalCnt = k;
-                        if (l < totalCnt) totalCnt = l;
+                        b = (n - 5 * a) / 3;
+                        break;
                     }
-                }
-                Console.WriteLine(totalCnt);
-
-            }
-
-            int ColorBoardW(string[] temp, int a, int b)
-            {
-                int total = 0;
-                for(int i = a; i<8 + a; i++)
-                {
-                    for(int j = b; j<8 + b; j++)
+                    else
                     {
-                        if(i %2 == 0 && j%2 == 0)
+                        a--;
+                        if (a == -1)
                         {
-                            ColorToWhite(temp[i][j], ref total);
-                        }
-                        else if(i%2 == 1 && j%2 == 1)
-                        {
-                            ColorToWhite(temp[i][j], ref total);
-                        }
-                        else
-                        {
-                            ColorToBlack(temp[i][j], ref total);
+                            Console.WriteLine(-1);
+                            return;
                         }
                     }
+                    
                 }
-                return total;
+                Console.WriteLine(a+b);
             }
-            int ColorBoardB(string[] temp, int a, int b)
-            {
-                int total = 0;
-                for (int i = a; i < 8 + a; i++)
-                {
-                    for (int j = b; j < 8 + b; j++)
-                    {
-                        if (i % 2 == 0 && j % 2 == 0)
-                        {
-                            ColorToBlack(temp[i][j], ref total);
-                        }
-                        else if (i % 2 == 1 && j % 2 == 1)
-                        {
-                            ColorToBlack(temp[i][j], ref total);
-                        }
-                        else
-                        {
-                            ColorToWhite(temp[i][j], ref total);
-                        }
-                    }
-                }
-                return total;
-            }
-            void ColorToWhite(char c, ref int total)
-            {
-                if(c == 'B')
-                {
-                    c = 'W';
-                    total++;
-                }
-            }
-            void ColorToBlack(char c, ref int total)
-            {
-                if(c == 'W')
-                {
-                    c = 'B';
-                    total++;
-                }
-            }
+
+
+            #region 1436
+            //MovieDirector();
+            //void MovieDirector()
+            //{
+            //    int n = int.Parse(Console.ReadLine());
+            //    List<int> list = new List<int>();
+            //    int a = 665;
+            //    while(list.Count < n)
+            //    {
+            //        a++;
+            //        if (a.ToString().Contains("666"))
+            //        {
+            //            list.Add(a);
+            //        }
+            //    }
+            //    Console.WriteLine(list[n-1]);
+            //}
             #endregion
 
+            #region 체스판 채우기 백준 1018문제
+            //RecolorTheChessBoard_2();
+            //void RecolorTheChessBoard_2()
+            //{
+            //    string[] input = Console.ReadLine().Split();
+            //    int n = int.Parse(input[0]);
+            //    int m = int.Parse(input[1]);
+            //    int totalCnt = n * m;
+            //    string[] temp = new string[n];
+            //    for(int i = 0; i<n; i++)
+            //    {
+            //        temp[i] = Console.ReadLine();
+            //    }
 
+            //    for(int a = 0; a<n-7; a++)
+            //    {
+            //        for(int b = 0; b<m-7; b++)
+            //        {
+            //            int k = ColorBoardB(temp, a, b);
+            //            int l = ColorBoardW(temp, a, b);
+            //            if (k < totalCnt) totalCnt = k;
+            //            if (l < totalCnt) totalCnt = l;
+            //        }
+            //    }
+            //    Console.WriteLine(totalCnt);
+
+            //}
+
+            //int ColorBoardW(string[] temp, int a, int b)
+            //{
+            //    int total = 0;
+            //    for(int i = a; i<8 + a; i++)
+            //    {
+            //        for(int j = b; j<8 + b; j++)
+            //        {
+            //            if(i %2 == 0 && j%2 == 0)
+            //            {
+            //                ColorToWhite(temp[i][j], ref total);
+            //            }
+            //            else if(i%2 == 1 && j%2 == 1)
+            //            {
+            //                ColorToWhite(temp[i][j], ref total);
+            //            }
+            //            else
+            //            {
+            //                ColorToBlack(temp[i][j], ref total);
+            //            }
+            //        }
+            //    }
+            //    return total;
+            //}
+            //int ColorBoardB(string[] temp, int a, int b)
+            //{
+            //    int total = 0;
+            //    for (int i = a; i < 8 + a; i++)
+            //    {
+            //        for (int j = b; j < 8 + b; j++)
+            //        {
+            //            if (i % 2 == 0 && j % 2 == 0)
+            //            {
+            //                ColorToBlack(temp[i][j], ref total);
+            //            }
+            //            else if (i % 2 == 1 && j % 2 == 1)
+            //            {
+            //                ColorToBlack(temp[i][j], ref total);
+            //            }
+            //            else
+            //            {
+            //                ColorToWhite(temp[i][j], ref total);
+            //            }
+            //        }
+            //    }
+            //    return total;
+            //}
+            //void ColorToWhite(char c, ref int total)
+            //{
+            //    if(c == 'B')
+            //    {
+            //        c = 'W';
+            //        total++;
+            //    }
+            //}
+            //void ColorToBlack(char c, ref int total)
+            //{
+            //    if(c == 'W')
+            //    {
+            //        c = 'B';
+            //        total++;
+            //    }
+            //}
+            #endregion
+
+            #region 이전 문제
             //RecolorTheChessBoard();
 
 
@@ -216,42 +262,11 @@ namespace BruteForce
 
             //    }
             //}
+            #endregion
         }
 
-        private static void RecolorTheChessBoard()
-        {
-            string[] input = Console.ReadLine().Split();
-            int n = int.Parse(input[0]);
-            int m = int.Parse(input[1]);
-            char[,] board = new char[n, m];
-            int totalCnt = n*m;
-            for(int i = 0; i < n; i++)
-            {
-                string temp = Console.ReadLine();
-                for(int j = 0; j < m; j++)
-                {
-                    board[i, j] = temp[j];
-                }
-            }
-            // 처음 W로 시작해버리기!
-            for(int i = 0; i<n-8; i++)
-            {
-                for(int j = i; j < i+8; j++)
-                {
-                    for(int k = 0; k < 8; k++)
-                    {
-                        
-                    }
-                }
-            }
-            int a = 0;
-            int b = 0;
-            
-            // 처음 B로 시작해버리기!
-            // 하나씩 이동하면서 
 
-        }
-
+        #region 19532문제
         private static void MathIsNonFaceToFace() // 19532
         {
             string[] input = Console.ReadLine().Split();
@@ -273,5 +288,7 @@ namespace BruteForce
                 }
             }
         }
+        #endregion
+
     }
 }
