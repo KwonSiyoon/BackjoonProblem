@@ -15,36 +15,68 @@ namespace BruteForce
 
 
 
-            DeliverySugar();
-            void DeliverySugar()
+
+
+
+            ArrayNumber();
+            void ArrayNumber()
             {
-                // 3킬로 봉지와 5킬로 봉지 있음
-                // 정확히 배달 못하면 -1
                 int n = int.Parse(Console.ReadLine());
-                // 5킬로 개수.
-                int a = n / 5;
-                int b = 0;
-                while (a >= 0)
+                int[] nums = new int[n];
+                for(int i = 0; i < n; i++)
                 {
-                    if((n-5*a)%3 == 0)
-                    {
-                        b = (n - 5 * a) / 3;
-                        break;
-                    }
-                    else
-                    {
-                        a--;
-                        if (a == -1)
-                        {
-                            Console.WriteLine(-1);
-                            return;
-                        }
-                    }
-                    
+                    nums[i] = int.Parse(Console.ReadLine());
                 }
-                Console.WriteLine(a+b);
+                for(int i = 0; i < n-1; i++)
+                {
+                    for(int j = i+1; j < n; j++)
+                    {
+                        if (nums[i] > nums[j])
+                        {
+                            int a = nums[i];
+                            nums[i] = nums[j];
+                            nums[j] = a;
+                        }
+                    } 
+                }
+                foreach(var c in nums)
+                {
+                    Console.WriteLine(c);
+                }
             }
 
+
+            #region 2839
+            //DeliverySugar(); 
+            //void DeliverySugar() // 2839
+            //{
+            //    // 3킬로 봉지와 5킬로 봉지 있음
+            //    // 정확히 배달 못하면 -1
+            //    int n = int.Parse(Console.ReadLine());
+            //    // 5킬로 개수.
+            //    int a = n / 5;
+            //    int b = 0;
+            //    while (a >= 0)
+            //    {
+            //        if((n-5*a)%3 == 0)
+            //        {
+            //            b = (n - 5 * a) / 3;
+            //            break;
+            //        }
+            //        else
+            //        {
+            //            a--;
+            //            if (a == -1)
+            //            {
+            //                Console.WriteLine(-1);
+            //                return;
+            //            }
+            //        }
+
+            //    }
+            //    Console.WriteLine(a+b);
+            //}
+            #endregion
 
             #region 1436
             //MovieDirector();

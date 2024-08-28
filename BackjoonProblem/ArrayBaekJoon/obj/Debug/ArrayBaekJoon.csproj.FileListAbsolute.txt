@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ArrayBaekJoon\bin\Debug\ArrayBaekJoon.exe.config
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ArrayBaekJoon\bin\Debug\ArrayBaekJoon.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ArrayBaekJoon\bin\Debug\ArrayBaekJoon.pdb
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ArrayBaekJoon\obj\Debug\ArrayBaekJoon.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ArrayBaekJoon\obj\Debug\ArrayBaekJoon.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ArrayBaekJoon\obj\Debug\ArrayBaekJoon.exe
+C:\Users\Admin\Desktop\BackjoonProblem\BackjoonProblem\ArrayBaekJoon\obj\Debug\ArrayBaekJoon.pdb
