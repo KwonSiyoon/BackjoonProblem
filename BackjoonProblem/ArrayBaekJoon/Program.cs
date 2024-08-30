@@ -14,6 +14,48 @@ namespace ArrayBaekJoon
 
 
 
+            CompressCoordinate();
+            void CompressCoordinate()
+            {
+                using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+                {
+                    StringBuilder sb = new StringBuilder();
+
+                    int n = int.Parse(Console.ReadLine());
+
+                    string[] input = Console.ReadLine().Split();
+                    int[] nums = new int[n];
+                    for (int i = 0; i < n; i++)
+                    {
+                        nums[i] = int.Parse(input[i]);
+                    }
+                    int[] list = nums.Distinct().ToArray();
+                    Array.Sort(list);
+                    Dictionary<int, int> dic = new Dictionary<int, int>();
+                    int index = 0;
+                    foreach(var c in list)
+                    {
+                        dic[c] = index;
+                        index++;
+                    }
+                    for(int i = 0; i<n; i++)
+                    {
+                        sb.Append(dic[nums[i]] + " ");
+                    }
+                    //for (int i = 0; i < n; i++)
+                    //{
+                    //    for (int j = 0; j < list.Length; j++)
+                    //    {
+                    //        if (list[j] == nums[i])
+                    //        {
+                    //            sb.Append(j + " ");
+                    //        }
+                    //    }
+                    //}
+                    print.WriteLine(sb.ToString().TrimEnd());
+                }
+            }
+
 
 
 
@@ -25,6 +67,49 @@ namespace ArrayBaekJoon
 
 
 
+            //AgeArray();
+            //void AgeArray() // 10814
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        int n = int.Parse(Console.ReadLine());
+
+            //        List<Tuple<int, string>> list = new List<Tuple<int, string>>();
+            //        int[] ages = new int[201];
+            //        for(int i = 0; i < n; i++)
+            //        {
+            //            string[] temp = Console.ReadLine().Split();
+            //            int age = int.Parse(temp[0]);
+            //            if (ages[age] == 0) ages[age]++;
+            //            list.Add(Tuple.Create(age, temp[1]));
+            //        }
+            //        for(int i = 0; i < ages.Length; i++)
+            //        {
+            //            if (ages[i] > 0)
+            //            {
+            //                for(int j = 0; j < list.Count; j++)
+            //                {
+            //                    if (i == list[j].Item1)
+            //                    {
+            //                        print.WriteLine($"{list[j].Item1} {list[j].Item2}");
+            //                    }
+            //                }
+            //                for(int j = list.Count-1; j >= 0; j--)
+            //                {
+            //                    if(i == list[j].Item1)
+            //                    {
+            //                        list.RemoveAt(j);
+            //                    }
+            //                }
+            //                if (list.Count == 0)
+            //                {
+            //                    break;
+            //                }
+            //            }
+            //        }
+            //    }
+
+            //}
 
             //ArrayWord_Ans();
             //void ArrayWord_Ans() // Linq 사용 풀이 예제
@@ -33,7 +118,7 @@ namespace ArrayBaekJoon
             //    {
             //        int n = int.Parse(Console.ReadLine());
             //        List<string> list = new List<string>();
-            //        for(int i = 0; i < n; i++)
+            //        for (int i = 0; i < n; i++)
             //        {
             //            list.Add(Console.ReadLine());
             //        }
@@ -44,7 +129,7 @@ namespace ArrayBaekJoon
             //                     orderby word.Length, word
             //                     select word;
 
-            //        foreach(var c in output)
+            //        foreach (var c in output)
             //        {
             //            print.WriteLine(c);
             //        }
