@@ -14,50 +14,105 @@ namespace ArrayBaekJoon
 
 
 
-            CompressCoordinate();
-            void CompressCoordinate()
-            {
-                using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
-                {
-                    StringBuilder sb = new StringBuilder();
+            #region 힙정렬과 이진탐색 트리 구현
+            //NumberCard();
+            //void NumberCard()
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        StringBuilder sb = new StringBuilder();
 
-                    int n = int.Parse(Console.ReadLine());
+            //        int n = int.Parse(Console.ReadLine());
+            //        string[] input = Console.ReadLine().Split();
+            //        int[] temp = new int[n];
+            //        int a = 0;
+            //        foreach(var c in input)
+            //        {
+            //            temp[a] = int.Parse(c);
+            //            a++;
+            //        }
 
-                    string[] input = Console.ReadLine().Split();
-                    int[] nums = new int[n];
-                    for (int i = 0; i < n; i++)
-                    {
-                        nums[i] = int.Parse(input[i]);
-                    }
-                    int[] list = nums.Distinct().ToArray();
-                    Array.Sort(list);
-                    Dictionary<int, int> dic = new Dictionary<int, int>();
-                    int index = 0;
-                    foreach(var c in list)
-                    {
-                        dic[c] = index;
-                        index++;
-                    }
-                    for(int i = 0; i<n; i++)
-                    {
-                        sb.Append(dic[nums[i]] + " ");
-                    }
-                    //for (int i = 0; i < n; i++)
-                    //{
-                    //    for (int j = 0; j < list.Length; j++)
-                    //    {
-                    //        if (list[j] == nums[i])
-                    //        {
-                    //            sb.Append(j + " ");
-                    //        }
-                    //    }
-                    //}
-                    print.WriteLine(sb.ToString().TrimEnd());
-                }
-            }
+            //        HeapSort(temp);
+            //        n = int.Parse(Console.ReadLine());
+            //        input = Console.ReadLine().Split();
+            //        int[] cards = new int[n];
+            //        //a = 0;
+            //        foreach(var c in input)
+            //        {
+            //            sb.Append(BinarySearch(temp, int.Parse(c)) + " ");
+            //            //cards[a] = int.Parse(c);
+            //            //a++;
+            //        }
 
+            //        print.WriteLine(sb.ToString().TrimEnd());
 
+            //    }
+            //}
+            //void Swap(int[] array, int i, int j)
+            //{
+            //    int temp = array[i];
+            //    array[i] = array[j];
+            //    array[j] = temp;
+            //}
+            //void HeapSort(int[] array)
+            //{
+            //    int n = array.Length;
+            //    for(int i = n/2 -1; i >= 0; i--)
+            //    {
+            //        Heapify(array, n, i);
+            //    }
+            //    for(int i = n -1; i>0; i--)
+            //    {
+            //        Swap(array, 0, i);
+            //        Heapify(array, i, 0);
+            //    }
+            //}
+            //void Heapify(int[] array, int n, int i)
+            //{
+            //    int largest = i; // 루트
+            //    int left = 2 * i + 1; // 왼쪽 자식 노드
+            //    int right = 2 * i + 2; // 오른쪽 자식 노드
+            //    // 자식이 있다면 left가 length내에 있음.
+            //    // 왼쪽 자식이 부모보다 크면 교체
+            //    if(left<n && array[left] > array[largest])
+            //    {
+            //        largest = left;
+            //    }
+            //    if(right <n && array[right] > array[largest])
+            //    {
+            //        largest = right;
+            //    }
+            //    // 가장 큰 값이 루트가 아니면
+            //    if(largest != i)
+            //    {
+            //        Swap(array, i, largest);
+            //        Heapify(array, n, largest);
+            //    }
+            //}
+            //int BinarySearch(int[] arr, int value)
+            //{
+            //    int left = 0;
+            //    int right = arr.Length - 1;
+            //    while(left <= right)
+            //    {
+            //        int mid = left + (right - left) / 2;
 
+            //        if (arr[mid] == value)
+            //        {
+            //            return 1;
+            //        }
+            //        else if (arr[mid] < value)
+            //        {
+            //            left = mid + 1;
+            //        }
+            //        else // arr[mid] > value
+            //        {
+            //            right = mid - 1;
+            //        }
+            //    }
+            //    return 0;
+            //}
+            #endregion
 
 
             #region 푼 문제
@@ -65,6 +120,47 @@ namespace ArrayBaekJoon
 
 
 
+            //CompressCoordinate();
+            //void CompressCoordinate() // 18870
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        StringBuilder sb = new StringBuilder();
+
+            //        int n = int.Parse(Console.ReadLine());
+
+            //        string[] input = Console.ReadLine().Split();
+            //        int[] nums = new int[n];
+            //        for (int i = 0; i < n; i++)
+            //        {
+            //            nums[i] = int.Parse(input[i]);
+            //        }
+            //        int[] list = nums.Distinct().ToArray();
+            //        Array.Sort(list);
+            //        Dictionary<int, int> dic = new Dictionary<int, int>();
+            //        int index = 0;
+            //        foreach(var c in list)
+            //        {
+            //            dic[c] = index;
+            //            index++;
+            //        }
+            //        for(int i = 0; i<n; i++)
+            //        {
+            //            sb.Append(dic[nums[i]] + " ");
+            //        }
+            //        //for (int i = 0; i < n; i++)
+            //        //{
+            //        //    for (int j = 0; j < list.Length; j++)
+            //        //    {
+            //        //        if (list[j] == nums[i])
+            //        //        {
+            //        //            sb.Append(j + " ");
+            //        //        }
+            //        //    }
+            //        //}
+            //        print.WriteLine(sb.ToString().TrimEnd());
+            //    }
+            //}
 
 
             //AgeArray();
