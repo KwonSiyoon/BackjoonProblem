@@ -14,6 +14,8 @@ namespace ArrayBaekJoon
 
 
 
+
+
             #region 힙정렬과 이진탐색 트리 구현
             //NumberCard();
             //void NumberCard()
@@ -118,7 +120,31 @@ namespace ArrayBaekJoon
             #region 푼 문제
 
 
+            //StringSet();
+            //void StringSet() // 14425
+            //{
+            //    using(var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        string[] input = Console.ReadLine().Split();
+            //        int n = int.Parse(input[0]);
+            //        int m = int.Parse(input[1]);
+            //        Dictionary<string, int> pairs = new Dictionary<string, int>();
+            //        int sum = 0;
+            //        for (int i = 0; i < n; i++)
+            //        {
+            //            pairs.Add(Console.ReadLine(), 1);
+            //        }
+            //        for (int i = 0; i < m; i++)
+            //        {
+            //            if (pairs.ContainsKey(Console.ReadLine()))
+            //            {
+            //                sum++;
+            //            }
+            //        }
 
+            //        print.WriteLine(sum);
+            //    }
+            //}
 
             //CompressCoordinate();
             //void CompressCoordinate() // 18870
