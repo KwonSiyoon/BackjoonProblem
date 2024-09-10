@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -14,105 +15,15 @@ namespace ArrayBaekJoon
 
 
 
-            #region 힙정렬과 이진탐색 트리 구현
-            //NumberCard();
-            //void NumberCard()
-            //{
-            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
-            //    {
-            //        StringBuilder sb = new StringBuilder();
 
-            //        int n = int.Parse(Console.ReadLine());
-            //        string[] input = Console.ReadLine().Split();
-            //        int[] temp = new int[n];
-            //        int a = 0;
-            //        foreach(var c in input)
-            //        {
-            //            temp[a] = int.Parse(c);
-            //            a++;
-            //        }
 
-            //        HeapSort(temp);
-            //        n = int.Parse(Console.ReadLine());
-            //        input = Console.ReadLine().Split();
-            //        int[] cards = new int[n];
-            //        //a = 0;
-            //        foreach(var c in input)
-            //        {
-            //            sb.Append(BinarySearch(temp, int.Parse(c)) + " ");
-            //            //cards[a] = int.Parse(c);
-            //            //a++;
-            //        }
 
-            //        print.WriteLine(sb.ToString().TrimEnd());
 
-            //    }
-            //}
-            //void Swap(int[] array, int i, int j)
-            //{
-            //    int temp = array[i];
-            //    array[i] = array[j];
-            //    array[j] = temp;
-            //}
-            //void HeapSort(int[] array)
-            //{
-            //    int n = array.Length;
-            //    for(int i = n/2 -1; i >= 0; i--)
-            //    {
-            //        Heapify(array, n, i);
-            //    }
-            //    for(int i = n -1; i>0; i--)
-            //    {
-            //        Swap(array, 0, i);
-            //        Heapify(array, i, 0);
-            //    }
-            //}
-            //void Heapify(int[] array, int n, int i)
-            //{
-            //    int largest = i; // 루트
-            //    int left = 2 * i + 1; // 왼쪽 자식 노드
-            //    int right = 2 * i + 2; // 오른쪽 자식 노드
-            //    // 자식이 있다면 left가 length내에 있음.
-            //    // 왼쪽 자식이 부모보다 크면 교체
-            //    if(left<n && array[left] > array[largest])
-            //    {
-            //        largest = left;
-            //    }
-            //    if(right <n && array[right] > array[largest])
-            //    {
-            //        largest = right;
-            //    }
-            //    // 가장 큰 값이 루트가 아니면
-            //    if(largest != i)
-            //    {
-            //        Swap(array, i, largest);
-            //        Heapify(array, n, largest);
-            //    }
-            //}
-            //int BinarySearch(int[] arr, int value)
-            //{
-            //    int left = 0;
-            //    int right = arr.Length - 1;
-            //    while(left <= right)
-            //    {
-            //        int mid = left + (right - left) / 2;
 
-            //        if (arr[mid] == value)
-            //        {
-            //            return 1;
-            //        }
-            //        else if (arr[mid] < value)
-            //        {
-            //            left = mid + 1;
-            //        }
-            //        else // arr[mid] > value
-            //        {
-            //            right = mid - 1;
-            //        }
-            //    }
-            //    return 0;
-            //}
-            #endregion
+
+
+
+
 
 
             #region 푼 문제
@@ -122,13 +33,111 @@ namespace ArrayBaekJoon
 
 
 
+            //SymmetryDifference();
+            //void SymmetryDifference() // 1269
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        string[] input = Console.ReadLine().Split();
+            //        int n = int.Parse(input[0]);
+            //        int m = int.Parse(input[1]);
+            //        input = Console.ReadLine().Split();
+            //        int cnt = n;
+            //        Dictionary<string, int> dic = new Dictionary<string, int>();
+            //        for (int i = 0; i < n; i++)
+            //        {
+            //            dic.Add(input[i], 0);
+            //        }
+            //        input = Console.ReadLine().Split();
+            //        for (int i = 0; i < m; i++)
+            //        {
+            //            if (dic.ContainsKey(input[i]))
+            //            {
+            //                cnt--;
+            //            }
+            //            else
+            //            {
+            //                cnt++;
+            //            }
+            //        }
+            //        print.WriteLine(cnt);
+            //    }
+            //}
+
+
+            //DeutBoJob();
+            //void DeutBoJob() // 1764
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        string[] input = Console.ReadLine().Split();
+            //        int n = int.Parse(input[0]);
+            //        int m = int.Parse(input[1]);
+
+            //        Dictionary<string, int> dic = new Dictionary<string, int>();
+            //        for (int i = 0; i < n; i++)
+            //        {
+            //            dic.Add(Console.ReadLine(), 0);
+            //        }
+            //        List<string> list = new List<string>();
+            //        for (int i = 0; i < m; i++)
+            //        {
+            //            string temp = Console.ReadLine();
+            //            if (dic.ContainsKey(temp))
+            //            {
+            //                list.Add(temp);
+            //            }
+            //        }
+            //        print.WriteLine(list.Count);
+            //        list.Sort();
+            //        for (int i = 0; i < list.Count; i++)
+            //        {
+            //            print.WriteLine(list[i]);
+            //        }
+            //    }
+            //}
 
 
 
 
-
-
-
+            //NumberCard2();
+            //void NumberCard2() // 10816
+            //{
+            //    using(var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        int n = int.Parse(Console.ReadLine());
+            //        Dictionary<string, int> dic = new Dictionary<string, int>();
+            //        StringBuilder sb = new StringBuilder();
+            //        string[] input = Console.ReadLine().Split();
+            //        for (int i = 0; i<n; i++)
+            //        {
+            //            string temp = input[i];
+            //            if (dic.TryGetValue(temp, out int cnt))
+            //            {
+            //                dic.Remove(temp);
+            //                dic.Add(temp, ++cnt);
+            //            }
+            //            else
+            //            {
+            //                dic.Add(temp, 1);
+            //            }
+            //        }
+            //        n = int.Parse(Console.ReadLine());
+            //        input = Console.ReadLine().Split();
+            //        for (int i = 0; i < n; i++)
+            //        {
+            //            if (dic.TryGetValue(input[i], out int cnt))
+            //            {
+            //                sb.Append(cnt + " ");
+            //            }
+            //            else
+            //            {
+            //                sb.Append(0 + " ");
+            //            }
+            //        }
+            //        print.WriteLine(sb.ToString().TrimEnd());
+            //    }
+            //}
 
 
 
@@ -569,6 +578,106 @@ namespace ArrayBaekJoon
             //    Console.WriteLine(list[2]);
             //}
 
+            #endregion
+
+            #region 힙정렬과 이진탐색 트리 구현
+            //NumberCard();
+            //void NumberCard()
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        StringBuilder sb = new StringBuilder();
+
+            //        int n = int.Parse(Console.ReadLine());
+            //        string[] input = Console.ReadLine().Split();
+            //        int[] temp = new int[n];
+            //        int a = 0;
+            //        foreach(var c in input)
+            //        {
+            //            temp[a] = int.Parse(c);
+            //            a++;
+            //        }
+
+            //        HeapSort(temp);
+            //        n = int.Parse(Console.ReadLine());
+            //        input = Console.ReadLine().Split();
+            //        int[] cards = new int[n];
+            //        //a = 0;
+            //        foreach(var c in input)
+            //        {
+            //            sb.Append(BinarySearch(temp, int.Parse(c)) + " ");
+            //            //cards[a] = int.Parse(c);
+            //            //a++;
+            //        }
+
+            //        print.WriteLine(sb.ToString().TrimEnd());
+
+            //    }
+            //}
+            //void Swap(int[] array, int i, int j)
+            //{
+            //    int temp = array[i];
+            //    array[i] = array[j];
+            //    array[j] = temp;
+            //}
+            //void HeapSort(int[] array)
+            //{
+            //    int n = array.Length;
+            //    for(int i = n/2 -1; i >= 0; i--)
+            //    {
+            //        Heapify(array, n, i);
+            //    }
+            //    for(int i = n -1; i>0; i--)
+            //    {
+            //        Swap(array, 0, i);
+            //        Heapify(array, i, 0);
+            //    }
+            //}
+            //void Heapify(int[] array, int n, int i)
+            //{
+            //    int largest = i; // 루트
+            //    int left = 2 * i + 1; // 왼쪽 자식 노드
+            //    int right = 2 * i + 2; // 오른쪽 자식 노드
+            //    // 자식이 있다면 left가 length내에 있음.
+            //    // 왼쪽 자식이 부모보다 크면 교체
+            //    if(left<n && array[left] > array[largest])
+            //    {
+            //        largest = left;
+            //    }
+            //    if(right <n && array[right] > array[largest])
+            //    {
+            //        largest = right;
+            //    }
+            //    // 가장 큰 값이 루트가 아니면
+            //    if(largest != i)
+            //    {
+            //        Swap(array, i, largest);
+            //        Heapify(array, n, largest);
+            //    }
+            //}
+            //int BinarySearch(int[] arr, int value)
+            //{
+            //    int left = 0;
+            //    int right = arr.Length - 1;
+            //    while(left <= right)
+            //    {
+            //        int mid = left + (right - left) / 2;
+
+            //        if (arr[mid] == value)
+            //        {
+            //            return 1;
+            //        }
+            //        else if (arr[mid] < value)
+            //        {
+            //            left = mid + 1;
+            //        }
+            //        else // arr[mid] > value
+            //        {
+            //            right = mid - 1;
+            //        }
+            //    }
+            //    return 0;
+            //}
             #endregion
         }
     }
