@@ -14,8 +14,6 @@ namespace ArrayBaekJoon
 
 
 
-
-
             #region 힙정렬과 이진탐색 트리 구현
             //NumberCard();
             //void NumberCard()
@@ -118,6 +116,90 @@ namespace ArrayBaekJoon
 
 
             #region 푼 문제
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //PocketMonDasom();
+            //void PocketMonDasom() // 1620
+            //{
+            //    using(var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        string[] input = Console.ReadLine().Split();
+            //        int n = int.Parse(input[0]);
+            //        int m = int.Parse(input[1]);
+
+            //        Dictionary<string, int> dic = new Dictionary<string, int>();
+            //        List<string> list = new List<string>();
+            //        int cnt = 1;
+            //        for(int i = 0; i < n; i++)
+            //        {
+            //            string temp = Console.ReadLine();
+            //            dic.Add(temp, cnt++);
+            //            list.Add(temp);
+            //        }
+            //        for(int i = 0; i < m; i++)
+            //        {
+            //            string temp = Console.ReadLine();
+            //            if(int.TryParse(temp, out int num))
+            //            {
+            //                print.WriteLine(list[num - 1]);
+            //            }
+            //            else
+            //            {
+            //                dic.TryGetValue(temp, out int value);
+            //                print.WriteLine(value);
+            //            }
+            //        }
+            //    }
+            //}
+
+
+
+
+
+            //PeopleInCompany();
+            //void PeopleInCompany() // dictionary의 키를 list로 바꿔 정렬. 7785
+            //{
+            //    using(var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        int n = int.Parse(Console.ReadLine());
+
+            //        Dictionary<string, string> dic = new Dictionary<string, string>();
+            //        for(int i = 0; i <n; i++)
+            //        {
+            //            string[] input = Console.ReadLine().Split();
+            //            if (dic.ContainsKey(input[0]))
+            //            {
+            //                dic.Remove(input[0]);
+            //            }
+            //            else
+            //            {
+            //                dic.Add(input[0], input[0]);
+            //            }
+            //        }
+            //        List<string> list = dic.Keys.ToList();
+            //        list.Sort();
+            //        for(int i = list.Count-1; i>=0; i--)
+            //        {
+            //            print.WriteLine(list[i]);
+            //        }
+            //    }
+            //}
 
 
             //StringSet();
