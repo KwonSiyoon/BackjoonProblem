@@ -13,8 +13,52 @@ namespace ArrayBaekJoon
         static void Main(string[] args)
         {
 
+            using(var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            {
+                int t = int.Parse(Console.ReadLine());
 
-
+                for(int i = 0; i < t; i++)
+                {
+                    string[] input = Console.ReadLine().Split();
+                    List<int> list = new List<int>();
+                    int ans = 1;
+                    int a = int.Parse(input[0]);
+                    int b = int.Parse(input[1]);
+                    if (a == b) 
+                    {
+                        print.WriteLine(a);
+                        continue;
+                    }
+                    if(a>b && a % b == 0)
+                    {
+                        print.WriteLine(a);
+                        continue;
+                    }
+                    else if(a<b && b %a==0)
+                    {
+                        print.WriteLine(b);
+                        continue;
+                    }
+                    
+                    int max = b;
+                    if (a > b) max = a;
+                    for(int k = 2; k <max; k++)
+                    {
+                        while(a%k == 0 && b%k == 0)
+                        {
+                            a /= k;
+                            b /= k;
+                            list.Add(k);
+                        }
+                        if (k > a || k > b) break;
+                    }
+                    foreach(var c in list)
+                    {
+                        ans *= c;
+                    }
+                    print.WriteLine(ans * a * b);
+                }
+            }
 
 
 
@@ -31,6 +75,39 @@ namespace ArrayBaekJoon
 
 
 
+
+
+
+            //DifferentStringCnt();
+            //void DifferentStringCnt() // 11478
+            //{
+            //    using(var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        string input = Console.ReadLine();
+            //        Dictionary<string, string> dic = new Dictionary<string, string>();
+            //        int n = input.Length;
+            //        int cnt = 0;
+            //        for(n= input.Length; n > 0; n--)
+            //        {
+            //            for (int i = 0; i <= input.Length - n; i++)
+            //            {
+            //                if (n == 0) break;
+            //                string temp = input.Substring(i, n);
+            //                if (dic.ContainsKey(temp))
+            //                {
+            //                    continue;
+            //                }
+            //                else
+            //                {
+            //                    dic.Add(temp, temp);
+            //                    cnt++;
+            //                }
+            //            }
+            //        }
+
+            //        print.WriteLine(cnt);
+            //    }
+            //}
 
 
             //SymmetryDifference();
