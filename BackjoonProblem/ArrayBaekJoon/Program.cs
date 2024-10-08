@@ -13,46 +13,171 @@ namespace ArrayBaekJoon
         static void Main(string[] args)
         {
 
-            LeastCommonMultiple2();
-            void LeastCommonMultiple2()
+
+            Colonnade();
+            void Colonnade()
             {
                 using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
                 {
-                    string[] input = Console.ReadLine().Split();
-                    int a = int.Parse(input[0]);
-                    int b = int.Parse(input[1]);
-                    if(a < b) // a>b로 만들기
+                    int n = int.Parse(Console.ReadLine());
+                    List<int> differList = new List<int>();
+                    int a = 0;
+                    int input = 0;
+                    int differ = 0;
+                    int totalDiffer = 0;
+                    int num1 = 0;
+                    int num2 = 0;
+                    for (int i = 0; i < n; i++)
                     {
-                        int temp = a;
-                        a = b;
-                        b = temp;
+                        input = int.Parse(Console.ReadLine());
+                        if (i == 0)
+                        {
+                            a = input;
+                            num1 = input;
+                            continue;
+                        }
+                        else if(i == n - 1)
+                        {
+                            num2 = input;
+                        }
+                        else
+                        {
+                            differ = input - a;
+                            a = input;
+                        }
+
+                        if (!differList.Contains(differ))
+                        {
+                            differList.Add(differ);
+                        }
                     }
-                    if(a == b || a % b == 0)
+                    totalDiffer = num2 - num1;
+                    int divisor = 0;
+                    for (int i = 0; i < differList.Count-1; i++)
                     {
-                        print.WriteLine(a);
-                    }
-                    int t = a;
-                    while(t > 0)
-                    {
-                        
+                        if(i == 0)
+                        {
+                            divisor = Divisor(differList[i+1], differList[i]);
+                        }
+                        else
+                        {
+                            if (divisor == differList[i + 1]) continue;
+                            divisor = Divisor(differList[i+1], divisor);
+                        }
+                        if (divisor == 1) break;
                     }
 
-
-
+                    print.WriteLine(totalDiffer / divisor + 1 - n);
                 }
             }
-
-
-
-
-
-
+            int Divisor(int a, int b) // 유클리드 호제법으로 최대 공약수 구하기.
+            {
+                if (b > a)
+                {
+                    int temp = b;
+                    b = a;
+                    a = temp;
+                }
+                int c = 0;
+                while (b > 0)
+                {
+                    c = a % b;
+                    a = b;
+                    b = c;
+                }
+                return a;
+            }
 
 
 
 
             #region 푼 문제
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //FractionSum();
+            //void FractionSum()
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        string[] input = Console.ReadLine().Split();
+            //        int a = int.Parse(input[0]);
+            //        int b = int.Parse(input[1]);
+            //        input = Console.ReadLine().Split();
+            //        int c = int.Parse(input[0]);
+            //        int d = int.Parse(input[1]);
+            //        int divisor = Divisor(b, d); // 최대공약수
+            //        int denominator = b*d/ divisor; // 분모
+            //        int numerator = (a * d  + c * b) / divisor; // 분자
+            //        divisor = Divisor(denominator, numerator);
+            //        print.WriteLine($"{numerator/divisor} {denominator / divisor}");
+            //    }
+            //}
+            //int Divisor(int a, int b) // 유클리드 호제법으로 최대 공약수 구하기.
+            //{
+            //    if(b > a)
+            //    {
+            //        int temp = b;
+            //        b = a;
+            //        a = temp;
+            //    }
+            //    int c = 0;
+            //    while(b > 0)
+            //    {
+            //        c = a % b;
+            //        a = b;
+            //        b = c;
+            //    }
+            //    return a;
+            //}
+
+            //// 최소공배수2 13241
+            //LeastCommonMultiple2();
+            //void LeastCommonMultiple2()
+            //{
+            //    using (var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
+            //    {
+            //        string[] input = Console.ReadLine().Split();
+            //        long a = long.Parse(input[0]);
+            //        long b = long.Parse(input[1]);
+            //        if(a < b) // a>b로 만들기
+            //        {
+            //            long temp = a;
+            //            a = b;
+            //            b = temp;
+            //        }
+            //        if(a == b || a % b == 0)
+            //        {
+            //            print.WriteLine(a);
+            //            return;
+            //        }
+            //        long divisor = Divisor(a, b);
+            //        print.WriteLine(a * b / divisor);
+            //    }
+            //}
+            //long Divisor(long a, long b)
+            //{
+            //    long c = 0;
+            //    while(b > 0)
+            //    {
+            //        c = a % b;
+            //        a = b;
+            //        b = c;
+            //    }
+            //    return a;
+            //}
 
             //// 최소공배수 1934
             //using(var print = new System.IO.StreamWriter(Console.OpenStandardOutput()))
